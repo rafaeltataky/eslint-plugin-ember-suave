@@ -1,0 +1,46 @@
+{
+  "name": "eslint-plugin-ember-suave",
+  "version": "2.0.1",
+  "description": "DockYard's ESLint plugin for Ember apps",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "DockYard <oss@dockyard.com>",
+  "contributors": [
+    {
+      "name": "Alex LaFroscia"
+    },
+    {
+      "name": "Robert Wagner",
+      "email": "rwwagner90@gmail.com",
+      "url": "https://github.com/rwwagner90"
+    },
+    {
+      "name": "Sergio Arbeo",
+      "email": "sergio.arbeo@dockyard.com",
+      "url": "https://github.com/Serabe"
+    }
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests tests/lib/rules/*.js tests/**/*-test.js"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-ember": "^7.6.0",
+    "requireindex": "~1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "doctrine": "^3.0.0",
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
+    "mocha-eslint": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
